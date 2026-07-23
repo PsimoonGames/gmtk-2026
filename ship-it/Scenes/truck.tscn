@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://byecmnnmnqmxk"]
+
+[ext_resource type="Texture2D" uid="uid://uymfor47q6h4" path="res://Assets/product/truckFront.png" id="1_ncoh0"]
+[ext_resource type="Texture2D" uid="uid://brqrgtayy12be" path="res://Assets/product/TruckBack.png" id="2_gyc6o"]
+
+[node name="Node2D" type="Node2D" unique_id=1232429245]
+
+[node name="TruckFront" type="Sprite2D" parent="." unique_id=1331372671]
+position = Vector2(22, 1)
+texture = ExtResource("1_ncoh0")
+
+[node name="TruckBack" type="Sprite2D" parent="." unique_id=2579776]
+position = Vector2(-55, 1)
+texture = ExtResource("2_gyc6o")
