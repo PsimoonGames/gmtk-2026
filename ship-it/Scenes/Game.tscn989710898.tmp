@@ -2,10 +2,8 @@
 
 [ext_resource type="Script" uid="uid://cywvc3w8q82db" path="res://Scripts/game.gd" id="1_gl6un"]
 [ext_resource type="Texture2D" uid="uid://cn2j4grs5f55i" path="res://Assets/tiles/tilemap.png" id="1_iukft"]
-[ext_resource type="Script" uid="uid://chs7ptp1vhh6t" path="res://Scenes/truck_buttons.gd" id="3_fgofq"]
 [ext_resource type="Texture2D" uid="uid://dioj2q73h7gud" path="res://Assets/Buttons/Assign/Assign Normal.png" id="3_j5yw3"]
 [ext_resource type="Script" uid="uid://cv14uvimk8ipb" path="res://Scripts/AssignButton.gd" id="4_kldst"]
-[ext_resource type="Texture2D" uid="uid://ckbw8mwcujjtt" path="res://Assets/Buttons/Deploy/Deploy Normal.png" id="5_7lihs"]
 [ext_resource type="Script" uid="uid://chquw4ccqw4u0" path="res://Scenes/truckManager.gd" id="5_b2bpf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gl6un"]
@@ -24,85 +22,85 @@ sources/0 = SubResource("TileSetAtlasSource_gl6un")
 
 [sub_resource type="Curve2D" id="Curve2D_iukft"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 320, 160, 0, -317, 0, 0, 192, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 320, 160, 0, -317, 0, 0, 192, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_gl6un"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 192, 448, 110.095, 0, 0, 0, 64, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 192, 448, 110.095, 0, 0, 0, 64, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_j5yw3"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 576, 160, 0, -317, 0, 0, 448, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 576, 160, 0, -317, 0, 0, 448, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_kldst"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 448, 448, 110.095, 0, 0, 0, 320, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 448, 448, 110.095, 0, 0, 0, 320, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_b2bpf"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 832, 160, 0, -317, 0, 0, 704, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 832, 160, 0, -317, 0, 0, 704, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_7lihs"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 704, 448, 110.095, 0, 0, 0, 576, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 704, 448, 110.095, 0, 0, 0, 576, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_fgofq"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 1088, 160, 0, -317, 0, 0, 960, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 1088, 160, 0, -317, 0, 0, 960, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_2irst"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 960, 448, 110.095, 0, 0, 0, 832, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 960, 448, 110.095, 0, 0, 0, 832, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_bf53h"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 1344, 160, 0, -317, 0, 0, 1216, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 1344, 160, 0, -317, 0, 0, 1216, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_71axn"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 1216, 448, 110.095, 0, 0, 0, 1088, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 1216, 448, 110.095, 0, 0, 0, 1088, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_dahhg"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 1600, 160, 0, -317, 0, 0, 1472, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 1600, 160, 0, -317, 0, 0, 1472, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_3so38"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 1472, 448, 110.095, 0, 0, 0, 1344, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 1472, 448, 110.095, 0, 0, 0, 1344, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_3cx6b"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2000, 160, 0, 0, -110, 0, 1856, 160, 0, -317, 0, 0, 1728, 448)
+"points": PackedVector2Array(0, 0, 0, 0, 1920, 160, 0, 0, -110, 0, 1856, 160, 0, -317, 0, 0, 1728, 448)
 }
 point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_wxwew"]
 _data = {
-"points": PackedVector2Array(0, -95.38, 0, -317, 1728, 448, 110.095, 0, 0, 0, 1600, 160, 0, 0, 0, 0, -100, 160)
+"points": PackedVector2Array(0, -95.38, 0, -317, 1728, 448, 110.095, 0, 0, 0, 1600, 160, 0, 0, 0, 0, 0, 160)
 }
 point_count = 3
 
@@ -122,7 +120,7 @@ unique_name_in_owner = true
 curve = SubResource("Curve2D_iukft")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay1/In" unique_id=193266645]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -140,7 +138,7 @@ loop = false
 curve = SubResource("Curve2D_j5yw3")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay2/In" unique_id=1516119713]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -158,7 +156,7 @@ loop = false
 curve = SubResource("Curve2D_b2bpf")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay3/In" unique_id=2114614757]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -176,7 +174,7 @@ loop = false
 curve = SubResource("Curve2D_fgofq")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay4/In" unique_id=1287395673]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -194,7 +192,7 @@ loop = false
 curve = SubResource("Curve2D_bf53h")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay5/In" unique_id=1628465609]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -212,7 +210,7 @@ loop = false
 curve = SubResource("Curve2D_dahhg")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay6/In" unique_id=251102972]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -230,7 +228,7 @@ loop = false
 curve = SubResource("Curve2D_3cx6b")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Paths/Bay7/In" unique_id=2132788566]
-position = Vector2(2000, 160)
+position = Vector2(1920, 160)
 rotation = 3.1415927
 loop = false
 
@@ -243,8 +241,6 @@ rotation = -1.5707964
 loop = false
 
 [node name="TruckButtons" type="Node2D" parent="." unique_id=716038733]
-unique_name_in_owner = true
-script = ExtResource("3_fgofq")
 
 [node name="Assign" type="Node2D" parent="TruckButtons" unique_id=838134566]
 
@@ -257,134 +253,9 @@ texture_normal = ExtResource("3_j5yw3")
 script = ExtResource("4_kldst")
 bay = 1
 
-[node name="Bay2" type="TextureButton" parent="TruckButtons/Assign" unique_id=646251957]
-offset_left = 388.0
-offset_top = 392.0
-offset_right = 508.0
-offset_bottom = 432.0
-texture_normal = ExtResource("3_j5yw3")
-script = ExtResource("4_kldst")
-bay = 2
-
-[node name="Bay3" type="TextureButton" parent="TruckButtons/Assign" unique_id=2099078632]
-offset_left = 644.0
-offset_top = 392.0
-offset_right = 764.0
-offset_bottom = 432.0
-texture_normal = ExtResource("3_j5yw3")
-script = ExtResource("4_kldst")
-bay = 3
-
-[node name="Bay4" type="TextureButton" parent="TruckButtons/Assign" unique_id=683925635]
-offset_left = 900.0
-offset_top = 392.0
-offset_right = 1020.0
-offset_bottom = 432.0
-texture_normal = ExtResource("3_j5yw3")
-script = ExtResource("4_kldst")
-bay = 4
-
-[node name="Bay5" type="TextureButton" parent="TruckButtons/Assign" unique_id=622048652]
-offset_left = 1156.0
-offset_top = 392.0
-offset_right = 1276.0
-offset_bottom = 432.0
-texture_normal = ExtResource("3_j5yw3")
-script = ExtResource("4_kldst")
-bay = 5
-
-[node name="Bay6" type="TextureButton" parent="TruckButtons/Assign" unique_id=58615187]
-offset_left = 1412.0
-offset_top = 392.0
-offset_right = 1532.0
-offset_bottom = 432.0
-texture_normal = ExtResource("3_j5yw3")
-script = ExtResource("4_kldst")
-bay = 6
-
-[node name="Bay7" type="TextureButton" parent="TruckButtons/Assign" unique_id=1205164943]
-offset_left = 1668.0
-offset_top = 392.0
-offset_right = 1788.0
-offset_bottom = 432.0
-texture_normal = ExtResource("3_j5yw3")
-script = ExtResource("4_kldst")
-bay = 7
-
-[node name="Deploy" type="Node2D" parent="TruckButtons" unique_id=1563559474]
-
-[node name="Bay1" type="TextureButton" parent="TruckButtons/Deploy" unique_id=463009659]
-visible = false
-offset_left = 132.0
-offset_top = 256.0
-offset_right = 252.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
-[node name="Bay2" type="TextureButton" parent="TruckButtons/Deploy" unique_id=4786057]
-visible = false
-offset_left = 388.0
-offset_top = 256.0
-offset_right = 508.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
-[node name="Bay3" type="TextureButton" parent="TruckButtons/Deploy" unique_id=1030476005]
-visible = false
-offset_left = 644.0
-offset_top = 256.0
-offset_right = 764.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
-[node name="Bay4" type="TextureButton" parent="TruckButtons/Deploy" unique_id=938125003]
-visible = false
-offset_left = 900.0
-offset_top = 256.0
-offset_right = 1020.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
-[node name="Bay5" type="TextureButton" parent="TruckButtons/Deploy" unique_id=482355303]
-visible = false
-offset_left = 1156.0
-offset_top = 256.0
-offset_right = 1276.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
-[node name="Bay6" type="TextureButton" parent="TruckButtons/Deploy" unique_id=1761342514]
-visible = false
-offset_left = 1412.0
-offset_top = 256.0
-offset_right = 1532.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
-[node name="Bay7" type="TextureButton" parent="TruckButtons/Deploy" unique_id=1760325765]
-visible = false
-offset_left = 1668.0
-offset_top = 256.0
-offset_right = 1788.0
-offset_bottom = 296.0
-texture_normal = ExtResource("5_7lihs")
-
 [node name="Trucks" type="Node2D" parent="." unique_id=1731522735]
 unique_name_in_owner = true
 script = ExtResource("5_b2bpf")
 start_pos = Vector2(1920, 160)
 
 [connection signal="pressed" from="TruckButtons/Assign/Bay1" to="TruckButtons/Assign/Bay1" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Assign/Bay2" to="TruckButtons/Assign/Bay2" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Assign/Bay3" to="TruckButtons/Assign/Bay3" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Assign/Bay4" to="TruckButtons/Assign/Bay4" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Assign/Bay5" to="TruckButtons/Assign/Bay5" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Assign/Bay6" to="TruckButtons/Assign/Bay6" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Assign/Bay7" to="TruckButtons/Assign/Bay7" method="_on_pressed"]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay1" to="Trucks" method="_on_deploy_pressed" binds= [1]]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay2" to="Trucks" method="_on_deploy_pressed" binds= [2]]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay3" to="Trucks" method="_on_deploy_pressed" binds= [3]]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay4" to="Trucks" method="_on_deploy_pressed" binds= [4]]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay5" to="Trucks" method="_on_deploy_pressed" binds= [5]]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay6" to="Trucks" method="_on_deploy_pressed" binds= [6]]
-[connection signal="pressed" from="TruckButtons/Deploy/Bay7" to="Trucks" method="_on_deploy_pressed" binds= [7]]

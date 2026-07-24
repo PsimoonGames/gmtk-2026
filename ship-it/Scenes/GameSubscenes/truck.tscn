@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://byecmnnmnqmxk"]
+
+[ext_resource type="Script" uid="uid://d26grkrggaak1" path="res://Scripts/truck.gd" id="1_84j2l"]
+[ext_resource type="Texture2D" uid="uid://uymfor47q6h4" path="res://Assets/product/truckFront.png" id="1_ncoh0"]
+[ext_resource type="Texture2D" uid="uid://brqrgtayy12be" path="res://Assets/product/TruckBack.png" id="2_gyc6o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3xd07"]
+size = Vector2(154, 84)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1781114956]
+script = ExtResource("1_84j2l")
+
+[node name="TruckFront" type="Sprite2D" parent="." unique_id=215418247]
+position = Vector2(55, 1)
+texture = ExtResource("1_ncoh0")
+
+[node name="TruckBack" type="Sprite2D" parent="." unique_id=1751478561]
+position = Vector2(-22, 1)
+texture = ExtResource("2_gyc6o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1470777915]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_3xd07")
